@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #a5e1ff;
+	height: 100vh;
+	width: 100%;
+}
+
+
+#bt{
+	height: 8%;
+    width: 13%;
+font-family: 'Raleway', sans-serif;
+	font-size:200%;
+	border: none;
+	outline: none;
+	color: white;
+    background-color: transparent;
+		border-radius: 0.999vh;
+			transition: 0.3s ease;
+			border: 2px solid #E7FBBE;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 10vh;
+			margin-top: 20vh;
+			margin-left: 120vh;
+}
+
+.qhl{
+	position: absolute;
+	bottom: 20vh;
+	width: 55vh;
+	height: 70vh;
+	left: 10vh;
+}
+
+#bt:hover{
+	height: 10%;
+	width: 15%;
+		font-size: 230%;
+		transition: 0.3s ease;
+		border-radius: 0.999vh;
+		border: none;
+			background-color: #e4ffae;
+			cursor: pointer;
+}
